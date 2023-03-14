@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(echo "scale=4; e(l($BREATH)*$LOVE)" | bc -l)
+echo $(echo "scale=4; $BREATH ^ $LOVE" | bc -l)
+
